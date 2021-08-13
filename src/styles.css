@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@font-face {
+   font-family: blap-comfortaa;
+   src: url("./assets/fonts/Comfortaa-Regular.ttf");
+}
+
+@font-face {
+   font-family: blap-play;
+   src: url("./assets/fonts/Play-Regular.ttf");
+}
+
+.blap-bg {
+   background-image: url("assets/images/bg/blap-bg.png");
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.blap-comfortaa-font {
+   font-family: blap-comfortaa;
+}
+
+.blap-play-font {
+   font-family: blap-play;
+}
+
+.blap-spacer {
+   flex: 1 1 auto;
+}
+
+.blap-transparent {
+   background-color: transparent;
+}
+
+.blap-pointer {
+   cursor: pointer;
+}
+
+.blap-scrollable {
+   overflow: auto;
+   height: 100vh;
+}
+
+.blap-stick-top {
+   position: sticky;
+   position: -webkit-sticky;
+   top: 0; z-index: 2;
+}
+
+.blap-section {
+   margin-top: 50px;
+   margin-bottom: 30px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
