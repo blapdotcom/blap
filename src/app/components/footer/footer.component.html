@@ -1,1 +1,12 @@
-<span class="w3-text-gray blap-comfortaa-font w3-block w3-center">blap solutions &copy; {{ year }} | all rights reserved</span> 
+<div class="w3-black w3-padding blap-foot-height">
+   <div class="w3-text-amber w3-block w3-center">
+      <button mat-icon-button class="w3-large" (click)="facebook()" aria-label="facebook" #tooltip="matTooltip" matTooltip="Follow us on Facebook">
+         <fa-icon [icon]="faFacebook"></fa-icon>
+      </button>
+
+      <button mat-icon-button class="w3-large" (click)="instagram()" aria-label="instagram" #tooltip="matTooltip" matTooltip="Follow us on Instagram">
+         <fa-icon [icon]="faInstagram"></fa-icon>
+      </button>
+   </div>
+   <span class="w3-text-white blap-comfortaa-font w3-block w3-center w3-margin-top">blap solutions &copy; {{ year }} | all rights reserved</span>
+</div>

@@ -13,12 +13,31 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
    src: url("./assets/fonts/Play-Regular.ttf");
 }
 
+@font-face {
+   font-family: blap-josefin;
+   src: url("./assets/fonts/JosefinSans-Italic-VariableFont_wght.ttf");
+}
+
 .blap-bg {
    background-image: url("assets/images/bg/blap-bg.png");
    height: 100%;
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
+}
+
+.blap-theme-color {
+   color: #FF3CBA;
+}
+
+.blap-motto {
+   font-family: blap-josefin;
+   font-size: 50px;
+}
+
+.blap-opacity {
+   background-color: rgba(3, 3, 3, .2);
+   color: white;
 }
 
 .blap-comfortaa-font {
@@ -43,7 +62,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 
 .blap-scrollable {
    overflow: auto;
-   height: 100vh;
+   height: calc(100vh - 130px);
 }
 
 .blap-stick-top {
@@ -53,8 +72,12 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 .blap-section {
-   margin-top: 50px;
+   margin-top: 30px;
    margin-bottom: 30px;
    padding-left: 10px;
    padding-right: 10px;
+}
+
+.blap-margin-small {
+   margin: 10px;
 }
